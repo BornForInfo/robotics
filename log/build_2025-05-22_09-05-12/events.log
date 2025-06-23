@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000110] (-) JobUnselected: {'identifier': 'assignment2_publisher_subscriber'}
+[0.000138] (-) JobUnselected: {'identifier': 'assignment2_publisher_subscriber_avd'}
+[0.000171] (-) JobUnselected: {'identifier': 'assignment4_avd'}
+[0.000185] (-) JobUnselected: {'identifier': 'binary_image'}
+[0.000197] (-) JobUnselected: {'identifier': 'simple_drive_control'}
+[0.000208] (-) JobUnselected: {'identifier': 'simple_parking_maneuver'}
+[0.000218] (-) JobUnselected: {'identifier': 'simple_parking_maneuver_avd'}
+[0.000230] (camera_parameters) JobQueued: {'identifier': 'camera_parameters', 'dependencies': OrderedDict()}
+[0.000249] (camera_parameters) JobStarted: {'identifier': 'camera_parameters'}
+[0.099379] (-) TimerEvent: {}
+[0.199625] (-) TimerEvent: {}
+[0.299884] (-) TimerEvent: {}
+[0.400124] (-) TimerEvent: {}
+[0.500353] (-) TimerEvent: {}
+[0.551771] (camera_parameters) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_parameters', 'build', '--build-base', '/home/zheng-yang/robotik-homework/build/camera_parameters/build', 'install', '--record', '/home/zheng-yang/robotik-homework/build/camera_parameters/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zheng-yang/robotik-homework/src/camera_parameters', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'zheng-yang', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/zheng-yang', 'OLDPWD': '/home/zheng-yang/robotik-homework/bag_files', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2198', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'zheng-yang', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zheng-yang', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zheng-yang-ThinkPad-T14s-Gen-1:@/tmp/.ICE-unix/2145,unix/zheng-yang-ThinkPad-T14s-Gen-1:/tmp/.ICE-unix/2145', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/86416a8f_156c_4a1d_b572_2152c6ab6448', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VT8S62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.375', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zheng-yang/robotik-homework/build/camera_parameters', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'PYTHONPATH': '/home/zheng-yang/robotik-homework/build/camera_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages:'}, 'shell': False}
+[0.600486] (-) TimerEvent: {}
+[0.700763] (-) TimerEvent: {}
+[0.735526] (camera_parameters) StdoutLine: {'line': b'running egg_info\n'}
+[0.735772] (camera_parameters) StdoutLine: {'line': b'creating ../../build/camera_parameters/camera_parameters.egg-info\n'}
+[0.745995] (camera_parameters) StdoutLine: {'line': b'writing ../../build/camera_parameters/camera_parameters.egg-info/PKG-INFO\n'}
+[0.746258] (camera_parameters) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_parameters/camera_parameters.egg-info/dependency_links.txt\n'}
+[0.746484] (camera_parameters) StdoutLine: {'line': b'writing entry points to ../../build/camera_parameters/camera_parameters.egg-info/entry_points.txt\n'}
+[0.746576] (camera_parameters) StdoutLine: {'line': b'writing requirements to ../../build/camera_parameters/camera_parameters.egg-info/requires.txt\n'}
+[0.746779] (camera_parameters) StdoutLine: {'line': b'writing top-level names to ../../build/camera_parameters/camera_parameters.egg-info/top_level.txt\n'}
+[0.746874] (camera_parameters) StdoutLine: {'line': b"writing manifest file '../../build/camera_parameters/camera_parameters.egg-info/SOURCES.txt'\n"}
+[0.767990] (camera_parameters) StdoutLine: {'line': b"reading manifest file '../../build/camera_parameters/camera_parameters.egg-info/SOURCES.txt'\n"}
+[0.768291] (camera_parameters) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.768625] (camera_parameters) StdoutLine: {'line': b"writing manifest file '../../build/camera_parameters/camera_parameters.egg-info/SOURCES.txt'\n"}
+[0.768786] (camera_parameters) StdoutLine: {'line': b'running build\n'}
+[0.768882] (camera_parameters) StdoutLine: {'line': b'running build_py\n'}
+[0.769078] (camera_parameters) StdoutLine: {'line': b'creating /home/zheng-yang/robotik-homework/build/camera_parameters/build\n'}
+[0.769158] (camera_parameters) StdoutLine: {'line': b'creating /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib\n'}
+[0.769225] (camera_parameters) StdoutLine: {'line': b'creating /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib/camera_parameters\n'}
+[0.769308] (camera_parameters) StdoutLine: {'line': b'copying camera_parameters/parameters.py -> /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib/camera_parameters\n'}
+[0.775636] (camera_parameters) StdoutLine: {'line': b'copying camera_parameters/__init__.py -> /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib/camera_parameters\n'}
+[0.775823] (camera_parameters) StdoutLine: {'line': b'running install\n'}
+[0.781598] (camera_parameters) StdoutLine: {'line': b'running install_lib\n'}
+[0.792159] (camera_parameters) StdoutLine: {'line': b'creating /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters\n'}
+[0.792565] (camera_parameters) StdoutLine: {'line': b'copying /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib/camera_parameters/parameters.py -> /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters\n'}
+[0.792652] (camera_parameters) StdoutLine: {'line': b'copying /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib/camera_parameters/__init__.py -> /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters\n'}
+[0.792921] (camera_parameters) StdoutLine: {'line': b'byte-compiling /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters/parameters.py to parameters.cpython-312.pyc\n'}
+[0.793467] (camera_parameters) StdoutLine: {'line': b'byte-compiling /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters/__init__.py to __init__.cpython-312.pyc\n'}
+[0.793736] (camera_parameters) StdoutLine: {'line': b'running install_data\n'}
+[0.793851] (camera_parameters) StdoutLine: {'line': b'creating /home/zheng-yang/robotik-homework/install/camera_parameters/share/ament_index\n'}
+[0.794033] (camera_parameters) StdoutLine: {'line': b'creating /home/zheng-yang/robotik-homework/install/camera_parameters/share/ament_index/resource_index\n'}
+[0.794132] (camera_parameters) StdoutLine: {'line': b'creating /home/zheng-yang/robotik-homework/install/camera_parameters/share/ament_index/resource_index/packages\n'}
+[0.794202] (camera_parameters) StdoutLine: {'line': b'copying resource/camera_parameters -> /home/zheng-yang/robotik-homework/install/camera_parameters/share/ament_index/resource_index/packages\n'}
+[0.794267] (camera_parameters) StdoutLine: {'line': b'copying package.xml -> /home/zheng-yang/robotik-homework/install/camera_parameters/share/camera_parameters\n'}
+[0.794348] (camera_parameters) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.800872] (-) TimerEvent: {}
+[0.806602] (camera_parameters) StdoutLine: {'line': b'Copying ../../build/camera_parameters/camera_parameters.egg-info to /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters-0.0.0-py3.12.egg-info\n'}
+[0.807460] (camera_parameters) StdoutLine: {'line': b'running install_scripts\n'}
+[0.891094] (camera_parameters) StdoutLine: {'line': b'Installing subscriber script to /home/zheng-yang/robotik-homework/install/camera_parameters/lib/camera_parameters\n'}
+[0.891383] (camera_parameters) StdoutLine: {'line': b"writing list of installed files to '/home/zheng-yang/robotik-homework/build/camera_parameters/install.log'\n"}
+[0.900992] (-) TimerEvent: {}
+[0.920225] (camera_parameters) CommandEnded: {'returncode': 0}
+[0.927386] (camera_parameters) JobEnded: {'identifier': 'camera_parameters', 'rc': 0}
+[0.928355] (-) EventReactorShutdown: {}

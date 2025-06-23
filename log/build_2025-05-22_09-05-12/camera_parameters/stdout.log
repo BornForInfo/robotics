@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/camera_parameters/camera_parameters.egg-info
+writing ../../build/camera_parameters/camera_parameters.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_parameters/camera_parameters.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_parameters/camera_parameters.egg-info/entry_points.txt
+writing requirements to ../../build/camera_parameters/camera_parameters.egg-info/requires.txt
+writing top-level names to ../../build/camera_parameters/camera_parameters.egg-info/top_level.txt
+writing manifest file '../../build/camera_parameters/camera_parameters.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_parameters/camera_parameters.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/camera_parameters/camera_parameters.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zheng-yang/robotik-homework/build/camera_parameters/build
+creating /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib
+creating /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib/camera_parameters
+copying camera_parameters/parameters.py -> /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib/camera_parameters
+copying camera_parameters/__init__.py -> /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib/camera_parameters
+running install
+running install_lib
+creating /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters
+copying /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib/camera_parameters/parameters.py -> /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters
+copying /home/zheng-yang/robotik-homework/build/camera_parameters/build/lib/camera_parameters/__init__.py -> /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters
+byte-compiling /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters/parameters.py to parameters.cpython-312.pyc
+byte-compiling /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/zheng-yang/robotik-homework/install/camera_parameters/share/ament_index
+creating /home/zheng-yang/robotik-homework/install/camera_parameters/share/ament_index/resource_index
+creating /home/zheng-yang/robotik-homework/install/camera_parameters/share/ament_index/resource_index/packages
+copying resource/camera_parameters -> /home/zheng-yang/robotik-homework/install/camera_parameters/share/ament_index/resource_index/packages
+copying package.xml -> /home/zheng-yang/robotik-homework/install/camera_parameters/share/camera_parameters
+running install_egg_info
+Copying ../../build/camera_parameters/camera_parameters.egg-info to /home/zheng-yang/robotik-homework/install/camera_parameters/lib/python3.12/site-packages/camera_parameters-0.0.0-py3.12.egg-info
+running install_scripts
+Installing subscriber script to /home/zheng-yang/robotik-homework/install/camera_parameters/lib/camera_parameters
+writing list of installed files to '/home/zheng-yang/robotik-homework/build/camera_parameters/install.log'

@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/binary_image/binary_image.egg-info
+writing ../../build/binary_image/binary_image.egg-info/PKG-INFO
+writing dependency_links to ../../build/binary_image/binary_image.egg-info/dependency_links.txt
+writing entry points to ../../build/binary_image/binary_image.egg-info/entry_points.txt
+writing requirements to ../../build/binary_image/binary_image.egg-info/requires.txt
+writing top-level names to ../../build/binary_image/binary_image.egg-info/top_level.txt
+writing manifest file '../../build/binary_image/binary_image.egg-info/SOURCES.txt'
+reading manifest file '../../build/binary_image/binary_image.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/binary_image/binary_image.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zheng-yang/robotik-homework/build/binary_image/build
+creating /home/zheng-yang/robotik-homework/build/binary_image/build/lib
+creating /home/zheng-yang/robotik-homework/build/binary_image/build/lib/binary_image
+copying binary_image/grey_to_binary_image.py -> /home/zheng-yang/robotik-homework/build/binary_image/build/lib/binary_image
+copying binary_image/__init__.py -> /home/zheng-yang/robotik-homework/build/binary_image/build/lib/binary_image
+running install
+running install_lib
+creating /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image
+copying /home/zheng-yang/robotik-homework/build/binary_image/build/lib/binary_image/grey_to_binary_image.py -> /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image
+copying /home/zheng-yang/robotik-homework/build/binary_image/build/lib/binary_image/__init__.py -> /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image
+byte-compiling /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image/grey_to_binary_image.py to grey_to_binary_image.cpython-312.pyc
+byte-compiling /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/zheng-yang/robotik-homework/install/binary_image/share/ament_index
+creating /home/zheng-yang/robotik-homework/install/binary_image/share/ament_index/resource_index
+creating /home/zheng-yang/robotik-homework/install/binary_image/share/ament_index/resource_index/packages
+copying resource/binary_image -> /home/zheng-yang/robotik-homework/install/binary_image/share/ament_index/resource_index/packages
+copying package.xml -> /home/zheng-yang/robotik-homework/install/binary_image/share/binary_image
+running install_egg_info
+Copying ../../build/binary_image/binary_image.egg-info to /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image-0.0.0-py3.12.egg-info
+running install_scripts
+Installing subscription script to /home/zheng-yang/robotik-homework/install/binary_image/lib/binary_image
+writing list of installed files to '/home/zheng-yang/robotik-homework/build/binary_image/install.log'

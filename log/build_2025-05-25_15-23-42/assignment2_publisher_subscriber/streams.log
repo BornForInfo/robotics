@@ -1,0 +1,41 @@
+[0.753s] Invoking command in '/home/zheng-yang/robotik-homework/src/assignment2_publisher_subscriber': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assignment2_publisher_subscriber build --build-base /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/build install --record /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/install.log --single-version-externally-managed install_data
+[1.013s] running egg_info
+[1.013s] creating ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info
+[1.033s] writing ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/PKG-INFO
+[1.033s] writing dependency_links to ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/dependency_links.txt
+[1.034s] writing entry points to ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/entry_points.txt
+[1.034s] writing requirements to ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/requires.txt
+[1.034s] writing top-level names to ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/top_level.txt
+[1.034s] writing manifest file '../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/SOURCES.txt'
+[1.074s] reading manifest file '../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/SOURCES.txt'
+[1.075s] writing manifest file '../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info/SOURCES.txt'
+[1.075s] running build
+[1.075s] running build_py
+[1.075s] creating /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/build
+[1.075s] creating /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/build/lib
+[1.075s] creating /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber
+[1.075s] copying assignment2_publisher_subscriber/publisher.py -> /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber
+[1.082s] copying assignment2_publisher_subscriber/subscriber.py -> /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber
+[1.082s] copying assignment2_publisher_subscriber/__init__.py -> /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber
+[1.082s] running install
+[1.088s] running install_lib
+[1.108s] creating /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/python3.12/site-packages/assignment2_publisher_subscriber
+[1.109s] copying /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber/publisher.py -> /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/python3.12/site-packages/assignment2_publisher_subscriber
+[1.109s] copying /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber/subscriber.py -> /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/python3.12/site-packages/assignment2_publisher_subscriber
+[1.109s] copying /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/build/lib/assignment2_publisher_subscriber/__init__.py -> /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/python3.12/site-packages/assignment2_publisher_subscriber
+[1.109s] byte-compiling /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/python3.12/site-packages/assignment2_publisher_subscriber/publisher.py to publisher.cpython-312.pyc
+[1.110s] byte-compiling /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/python3.12/site-packages/assignment2_publisher_subscriber/subscriber.py to subscriber.cpython-312.pyc
+[1.110s] byte-compiling /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/python3.12/site-packages/assignment2_publisher_subscriber/__init__.py to __init__.cpython-312.pyc
+[1.110s] running install_data
+[1.111s] creating /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/share/ament_index
+[1.111s] creating /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/share/ament_index/resource_index
+[1.111s] creating /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/share/ament_index/resource_index/packages
+[1.111s] copying resource/assignment2_publisher_subscriber -> /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/share/ament_index/resource_index/packages
+[1.111s] copying package.xml -> /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/share/assignment2_publisher_subscriber
+[1.111s] running install_egg_info
+[1.132s] Copying ../../build/assignment2_publisher_subscriber/assignment2_publisher_subscriber.egg-info to /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/python3.12/site-packages/assignment2_publisher_subscriber-0.0.0-py3.12.egg-info
+[1.133s] running install_scripts
+[1.262s] Installing publisher script to /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/assignment2_publisher_subscriber
+[1.262s] Installing subscriber script to /home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/assignment2_publisher_subscriber
+[1.262s] writing list of installed files to '/home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/install.log'
+[1.286s] Invoked command in '/home/zheng-yang/robotik-homework/src/assignment2_publisher_subscriber' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zheng-yang/robotik-homework/install/assignment2_publisher_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assignment2_publisher_subscriber build --build-base /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/build install --record /home/zheng-yang/robotik-homework/build/assignment2_publisher_subscriber/install.log --single-version-externally-managed install_data

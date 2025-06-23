@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>simple_parking_maneuver</name>
+  <version>0.0.1</version>
+  <description>The simple_parking_maneuver package</description>
+
+  <maintainer email="daniel.neumann@fu-berlin.de">Daniel Neumann</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>std_msgs</depend>
+  <depend>rclpy</depend>
+  <depend>simple_drive_control</depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <build_type>ament_cmake</build_type>
+
+  </export>
+</package>

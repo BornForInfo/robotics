@@ -1,0 +1,38 @@
+[0.554s] Invoking command in '/home/zheng-yang/robotik-homework/src/binary_image': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zheng-yang/robotik-homework/build/binary_image/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/binary_image build --build-base /home/zheng-yang/robotik-homework/build/binary_image/build install --record /home/zheng-yang/robotik-homework/build/binary_image/install.log --single-version-externally-managed install_data
+[0.736s] running egg_info
+[0.736s] creating ../../build/binary_image/binary_image.egg-info
+[0.746s] writing ../../build/binary_image/binary_image.egg-info/PKG-INFO
+[0.747s] writing dependency_links to ../../build/binary_image/binary_image.egg-info/dependency_links.txt
+[0.747s] writing entry points to ../../build/binary_image/binary_image.egg-info/entry_points.txt
+[0.747s] writing requirements to ../../build/binary_image/binary_image.egg-info/requires.txt
+[0.747s] writing top-level names to ../../build/binary_image/binary_image.egg-info/top_level.txt
+[0.747s] writing manifest file '../../build/binary_image/binary_image.egg-info/SOURCES.txt'
+[0.768s] reading manifest file '../../build/binary_image/binary_image.egg-info/SOURCES.txt'
+[0.768s] adding license file 'LICENSE'
+[0.769s] writing manifest file '../../build/binary_image/binary_image.egg-info/SOURCES.txt'
+[0.769s] running build
+[0.769s] running build_py
+[0.769s] creating /home/zheng-yang/robotik-homework/build/binary_image/build
+[0.769s] creating /home/zheng-yang/robotik-homework/build/binary_image/build/lib
+[0.769s] creating /home/zheng-yang/robotik-homework/build/binary_image/build/lib/binary_image
+[0.769s] copying binary_image/grey_to_binary_image.py -> /home/zheng-yang/robotik-homework/build/binary_image/build/lib/binary_image
+[0.776s] copying binary_image/__init__.py -> /home/zheng-yang/robotik-homework/build/binary_image/build/lib/binary_image
+[0.776s] running install
+[0.782s] running install_lib
+[0.792s] creating /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image
+[0.793s] copying /home/zheng-yang/robotik-homework/build/binary_image/build/lib/binary_image/grey_to_binary_image.py -> /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image
+[0.793s] copying /home/zheng-yang/robotik-homework/build/binary_image/build/lib/binary_image/__init__.py -> /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image
+[0.793s] byte-compiling /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image/grey_to_binary_image.py to grey_to_binary_image.cpython-312.pyc
+[0.794s] byte-compiling /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image/__init__.py to __init__.cpython-312.pyc
+[0.795s] running install_data
+[0.795s] creating /home/zheng-yang/robotik-homework/install/binary_image/share/ament_index
+[0.795s] creating /home/zheng-yang/robotik-homework/install/binary_image/share/ament_index/resource_index
+[0.795s] creating /home/zheng-yang/robotik-homework/install/binary_image/share/ament_index/resource_index/packages
+[0.795s] copying resource/binary_image -> /home/zheng-yang/robotik-homework/install/binary_image/share/ament_index/resource_index/packages
+[0.795s] copying package.xml -> /home/zheng-yang/robotik-homework/install/binary_image/share/binary_image
+[0.795s] running install_egg_info
+[0.808s] Copying ../../build/binary_image/binary_image.egg-info to /home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages/binary_image-0.0.0-py3.12.egg-info
+[0.809s] running install_scripts
+[0.892s] Installing subscription script to /home/zheng-yang/robotik-homework/install/binary_image/lib/binary_image
+[0.893s] writing list of installed files to '/home/zheng-yang/robotik-homework/build/binary_image/install.log'
+[0.921s] Invoked command in '/home/zheng-yang/robotik-homework/src/binary_image' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zheng-yang/robotik-homework/build/binary_image/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zheng-yang/robotik-homework/install/binary_image/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/binary_image build --build-base /home/zheng-yang/robotik-homework/build/binary_image/build install --record /home/zheng-yang/robotik-homework/build/binary_image/install.log --single-version-externally-managed install_data

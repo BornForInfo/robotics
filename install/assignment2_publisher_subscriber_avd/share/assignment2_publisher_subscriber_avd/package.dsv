@@ -1,0 +1,6 @@
+source;share/assignment2_publisher_subscriber_avd/hook/pythonpath.ps1
+source;share/assignment2_publisher_subscriber_avd/hook/pythonpath.dsv
+source;share/assignment2_publisher_subscriber_avd/hook/pythonpath.sh
+source;share/assignment2_publisher_subscriber_avd/hook/ament_prefix_path.ps1
+source;share/assignment2_publisher_subscriber_avd/hook/ament_prefix_path.dsv
+source;share/assignment2_publisher_subscriber_avd/hook/ament_prefix_path.sh

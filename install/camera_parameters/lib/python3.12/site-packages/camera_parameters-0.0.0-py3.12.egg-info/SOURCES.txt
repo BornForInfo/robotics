@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/camera_parameters/camera_parameters.egg-info/PKG-INFO
+../../build/camera_parameters/camera_parameters.egg-info/SOURCES.txt
+../../build/camera_parameters/camera_parameters.egg-info/dependency_links.txt
+../../build/camera_parameters/camera_parameters.egg-info/entry_points.txt
+../../build/camera_parameters/camera_parameters.egg-info/requires.txt
+../../build/camera_parameters/camera_parameters.egg-info/top_level.txt
+../../build/camera_parameters/camera_parameters.egg-info/zip-safe
+camera_parameters/__init__.py
+camera_parameters/parameters.py
+resource/camera_parameters
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

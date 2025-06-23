@@ -1,0 +1,33 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: {}
+  duration:
+    nanoseconds: 12235298746
+  files:
+  - duration:
+      nanoseconds: 12235298746
+    message_count: 368
+    path: calibration.db3
+    starting_time:
+      nanoseconds_since_epoch: 1565771500062935580
+  message_count: 368
+  relative_file_paths:
+  - calibration.db3
+  starting_time:
+    nanoseconds_since_epoch: 1565771500062935580
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 184
+    topic_metadata:
+      name: /sensors/camera/infra1/camera_info
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/CameraInfo
+  - message_count: 184
+    topic_metadata:
+      name: /sensors/camera/infra1/image_rect_raw
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Image
+  version: 6

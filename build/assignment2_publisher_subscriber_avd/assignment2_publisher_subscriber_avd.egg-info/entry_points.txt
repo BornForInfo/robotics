@@ -1,0 +1,3 @@
+[console_scripts]
+publisher = assignment2_publisher_subscriber_avd.publisher:main
+subscriber = assignment2_publisher_subscriber_avd.subscriber:main

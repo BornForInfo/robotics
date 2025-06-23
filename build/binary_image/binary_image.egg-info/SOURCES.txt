@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/binary_image/binary_image.egg-info/PKG-INFO
+../../build/binary_image/binary_image.egg-info/SOURCES.txt
+../../build/binary_image/binary_image.egg-info/dependency_links.txt
+../../build/binary_image/binary_image.egg-info/entry_points.txt
+../../build/binary_image/binary_image.egg-info/requires.txt
+../../build/binary_image/binary_image.egg-info/top_level.txt
+../../build/binary_image/binary_image.egg-info/zip-safe
+binary_image/__init__.py
+binary_image/grey_to_binary_image.py
+resource/binary_image
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

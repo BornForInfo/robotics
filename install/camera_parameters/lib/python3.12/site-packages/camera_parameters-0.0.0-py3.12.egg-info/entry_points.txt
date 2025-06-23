@@ -1,0 +1,2 @@
+[console_scripts]
+subscriber = camera_parameters.parameters:main
